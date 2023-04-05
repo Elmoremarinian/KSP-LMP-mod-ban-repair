@@ -1,1 +1,11 @@
-https://replit.com/@TomasRecalde/KSP-luna-multiplayer-mod-piece-register?s=app
+print("write your unregistered mod name files here, the list will make itself as you go.")
+print("...")
+print("NOTE: this is to be used by the server owner and them only, it won't work with a client. This code makes a list of a ksp mod's parts/resources/etc that luna multiplayer's mod control is missing, and that makes you invisible to other players, as well as calls said pieces as a banned mod part, to solve this I made this code, Write down the name of the banned mod piece and then you can simply copy paste them into the mod control file, you can write 160 of these in a list, after that reload the page to start again with any other banned pieces.")
+print("...")
+print("160 row default")
+print("--write under here--")
+
+for i in range(160):
+  import getpass
+  list = getpass.getpass("")
+  print("\033[A<string>%s</string>" % list)
